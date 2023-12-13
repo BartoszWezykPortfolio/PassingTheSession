@@ -7,13 +7,12 @@ public class PlayerMovement : MonoBehaviour
 {
     private CharacterController controller;
     private Vector3 playerVelocity;
-    private float timeInterval;
     public float speed = 5f;
     private bool isRunning;
-    private bool canRun;
     private double maxStamina = 100f;
     private double currentStamina = 100f;
     private Vector3 lastPosition;
+    public float thresholdChange = 0.05f;
     public Image staminaBar;
 
     private bool IsGrounded;
@@ -31,11 +30,14 @@ public class PlayerMovement : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         lastPosition = transform.position;
+        InvokeRepeating("CheckForMovement", 0.001f, 1f);
     }
 
     // Update is called once per frame
     void Update()
     {
+        var diffVector = transform.position - lastPosition;
+        currentStamina = Mathf.Clamp((float)currentStamina, 0, (float)maxStamina);
         IsGrounded = controller.isGrounded;
 
         if(lerpCrouch)
@@ -55,21 +57,18 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if (canRun == false)
-
-
-        if (isRunning)
+        if (isRunning && diffVector.magnitude >= thresholdChange)
         {
-            currentStamina -= 0.1;
+            currentStamina -= 0.1f;
+            lastPosition = transform.position;
         }
         else
-            currentStamina += 0.1;
+        {
+            currentStamina += 0.1f;
+        }
 
-        if (currentStamina > 0)
-            canRun = true;
-        else
-            canRun = false;
-        Debug.Log(currentStamina);
+        
+
         UpdateStaminaUI();
     }
 
