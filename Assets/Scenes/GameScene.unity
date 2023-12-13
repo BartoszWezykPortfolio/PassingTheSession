@@ -636,6 +636,72 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 297878944}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &305697776
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1156817691}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_Name
+      value: Yaku J Ignite
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d0dd43d4b3aac1d45b225ad6eb940c71, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 86892dac51552554aae686fe541302ba, type: 3}
+--- !u!4 &305697777 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+  m_PrefabInstance: {fileID: 305697776}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &345580325
 GameObject:
   m_ObjectHideFlags: 0
@@ -2225,10 +2291,19 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 0df0fa5e6af827a479e6f831bb04f9d1, type: 2}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3715970062898823073, guid: 6f7ebb9ef4a1225499c95b42291cc5b1, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1807852558305068736, guid: 6f7ebb9ef4a1225499c95b42291cc5b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 305697777}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f7ebb9ef4a1225499c95b42291cc5b1, type: 3}
+--- !u!4 &1156817691 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1807852558305068736, guid: 6f7ebb9ef4a1225499c95b42291cc5b1, type: 3}
+  m_PrefabInstance: {fileID: 1156817690}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1167470374
 GameObject:
   m_ObjectHideFlags: 0
@@ -2891,6 +2966,72 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397430184}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1404459472
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 381842397059396645}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_Name
+      value: Yaku J Ignite
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 86892dac51552554aae686fe541302ba, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d0dd43d4b3aac1d45b225ad6eb940c71, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 86892dac51552554aae686fe541302ba, type: 3}
+--- !u!4 &1404459473 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 86892dac51552554aae686fe541302ba, type: 3}
+  m_PrefabInstance: {fileID: 1404459472}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1449265938
 GameObject:
   m_ObjectHideFlags: 0
@@ -5013,10 +5154,19 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 0df0fa5e6af827a479e6f831bb04f9d1, type: 2}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3715970062898823073, guid: 6f7ebb9ef4a1225499c95b42291cc5b1, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1807852558305068736, guid: 6f7ebb9ef4a1225499c95b42291cc5b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1404459473}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f7ebb9ef4a1225499c95b42291cc5b1, type: 3}
+--- !u!4 &381842397059396645 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1807852558305068736, guid: 6f7ebb9ef4a1225499c95b42291cc5b1, type: 3}
+  m_PrefabInstance: {fileID: 381842397059396644}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2534745243387546500
 PrefabInstance:
   m_ObjectHideFlags: 0
